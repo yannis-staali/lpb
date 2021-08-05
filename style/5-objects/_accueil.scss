@@ -1,0 +1,47 @@
+.accueil_container_general{
+    min-height: 100vh;
+    margin-top: 0;
+   
+}
+.accueil_main{
+background-image: url("images/blue.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+ height: 100vh;
+
+
+     @media screen and (max-width: 900px) {
+         min-height: 90vh;
+     }
+     @media screen and (min-width: 900px) {
+         min-height: 90vh;
+     }
+     min-height: 80vh;
+   
+    display: flex;
+
+  
+}
+
+.main_welcome{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    
+    a {
+        font-size: 1.5rem;
+        background-color: #73a8f6;
+        width: fit-content;
+        padding: 0.5em 1em;
+        border-radius: 20px;
+        box-shadow: 0 8px 6px -6px rgb(94, 94, 94);
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+}
